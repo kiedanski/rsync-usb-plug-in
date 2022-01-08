@@ -1,5 +1,4 @@
 echo "Installing the project"
-
 set -a
 source variables
 envsubst < variables > .variables
