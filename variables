@@ -1,0 +1,15 @@
+#! vim ft=bash
+# Complete the following list of attributes
+PROJECT_NAME="kindle_update"
+VENDOR_ID="1949"
+PRODUCT_ID="0004"
+LOCAL_DIR="/home/pi/Documents/ebooks/" # Has to end with slash
+REMOTE_DIR="documents/ebooks" # No trailing slash, relative to mount
+
+
+# Do not modify these
+LOG_FILE="/tmp/$PROJECT_NAME.log"
+MOUNT_FILE="/mnt/$PROJECT_NAME"
+NODE_FILE="/dev/$PROJECT_NAME"
+PIPE_FILE="/tmp/$PROJECT_NAME"
+ABSOLUTE_REMOTE_DIR="${MOUNT_FILE}/${REMOTE_DIR}"
