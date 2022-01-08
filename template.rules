@@ -1,0 +1,1 @@
+KERNEL=="sd?1", SUBSYSTEM=="block", ATTRS{idVendor}=="$VENDOR_ID", ATTRS{idProduct}=="$PRODUCT_ID", ACTION=="add", OWNER="$USER", SYMLINK+="$PROJECT_NAME", RUN+="/bin/sh -c '/bin/echo connected >> $PIPE_FILE'"
