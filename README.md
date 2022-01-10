@@ -3,7 +3,7 @@ The goal of this project is to provide a template for setting up scripts (possib
 
 ## Usage
 
-The first thing that you need to do is to open the ``ariables` file and change the values in there to reflect your own device.
+The first thing that you need to do is to open the `variables` file and change the values in there to reflect your own device.
 
 There are a couple of commands that can be used to get information about your usb device:
 
